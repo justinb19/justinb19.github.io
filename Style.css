@@ -26,6 +26,14 @@ h3 {
     font-size: 20px;
     text-align: center;
 }
-div {
-    
+nav ol  {
+    margin: 10px;
+    float: top;
+    border: solid blue;
+    border-radius: 10px;
+}
+nav li {
+    border: solid blue;
+    border-radius: 10px;
+    float: top;
 }
