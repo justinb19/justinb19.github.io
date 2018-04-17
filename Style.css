@@ -26,11 +26,12 @@ h3 {
     font-size: 20px;
     text-align: center;
 }
-nav ol  {
+nav ul  {
     margin: 10px;
     float: top;
     border: solid blue;
     border-radius: 10px;
+    display: inline-block;
 }
 nav li {
     border: solid blue;
