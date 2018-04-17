@@ -27,7 +27,7 @@ h3 {
     text-align: center;
 }
 nav ul  {
-    margin: 10px;
+    height
     float: top;
     border: solid blue;
     border-radius: 10px;
@@ -39,4 +39,5 @@ nav li {
     float: top;
     display: inline-block;
     text-align: right;
+    
 }
