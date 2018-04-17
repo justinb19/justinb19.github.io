@@ -37,4 +37,6 @@ nav li {
     border: solid blue;
     border-radius: 10px;
     float: top;
+    display: inline-block;
+    text-align: right;
 }
