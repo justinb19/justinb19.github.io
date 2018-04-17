@@ -32,6 +32,7 @@ nav ul  {
     border: solid blue;
     border-radius: 10px;
     display: inline-block;
+    right: 20px;
 }
 nav li {
     border: solid blue;
