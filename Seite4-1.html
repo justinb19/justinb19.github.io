@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Kontaktformular</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+         <nav>
+            <ul>
+                <li><a href="Seite1.html">Startseite</a></li>
+            </ul>
+        </nav>
+        
+        <form action="contact.php" method="post" id="Kontaktformular" name="Kontaktformular">
+            <div>
+                <label for="email">*Ihre E-Mail-Adresse:</label>
+                 <input type="email" id="email" name="email" required/>
+            </div>
+            <div>
+               <label for="message">*Ihre Nachricht:</label>
+               <textarea id="mmessage" name="message" cols="20" rows="5" required></textarea>
+            </div>
+            <div>
+                  <input type="submit" value="Abschicken" />
+            </div>
+        </form>
+        <h5 style="color: black; font-size: 14px; text-align: left">Mit * markierte Felder sind Pflichtfelder und müssen ausgefüllt werden.</h5>
+        
+        <h3 style="color: red">Die Nachricht wurde erfolgreich verschickt.</h3>
+        
+        <div id="placeholder"></div>
+            <div id="bottom">
+                    <ul style="none">
+                    <li>Kontakt:
+                        <ul>
+                            <li>E-Mail:<a href="mailto:justin.backes@outlook.de">justin.backes@outlook.de</a></li>
+                            <li><a href="Seite4.html">Formular</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+            </div>
+            <div id="bottom2">
+                <a href="Seite5.html"><h5 style="color: white;">Login</h5></a>
+        </div>
+    </body>
+</html>

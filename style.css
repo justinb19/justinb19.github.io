@@ -1,0 +1,91 @@
+body {background-image: url(Wallpaper2.png); background-color: #ccffff; margin: 100px 50px; padding:45px 35px 45px 35px; background-attachment: fixed;}
+/* Hintergrundfarbe und Rand */
+p, div, ul, ol, h1, h2, h3, h4, h5, th, td { font-family: Arial, sans-serif; font-size: 14px; color: black;}
+/* Schriftart für alle Elemente */
+h1, h2, h3, h4 {color: #000000; font-size: 20px;}
+/* Schriftfarbe Überschriften */
+h1 {font-size: 30px;
+    color: dodgerblue;
+}
+h2 {font-size: 25px;
+    color: black;
+}
+h3 {font-size: 22px;
+    color: black;
+}
+h4 {font-size: 18px;
+    color: black;
+}
+h5 {font-size: 20px; 
+    color: black;
+    text-align: center;
+}
+li {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+      
+}
+/* Navigationsleiste */
+nav ul {
+    list-style: none;
+    text-align: right;
+    border: solid dodgerblue;
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+}
+
+nav li {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    margin: 6px;
+    float: top;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    color: dodgerblue;
+    transition:  0.15s cubic-bezier;
+    margin-right: 10px;
+    float: top;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active {
+    border: solid ;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border: solid white;
+    margin-right: 4px;
+}
+/* Navigationsleiste Ende */
+
+/* Platzhalter */
+#placeholder {
+    visibility: hidden;
+    height: 200px;
+}
+
+/* Foot */
+
+#bottom {
+    height: 100px;
+    list-style: none;
+    background-color: transparent;
+    float: left;
+    border-radius: 10px;
+}
+
+#bottom2 {
+    height: 100px;
+    background-color: transparent;
+    float: right;
+    border-radius: 10px;
+    color: white;
+}
